@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
 
-### More Information
+Page/Site/Blog/github is dedicated to help user/developer findout how to work/optimize MySQLonARM.
 
-A place to include any other types of information that you'd like to include about yourself.
+I have been working in MySQL space for more than decade now. Currently I am trying to optimize MySQL on ARM. In past have worked in different role like Percona-XtraDB-Cluster lead cum developer, InnoDB/MySQL developer, startup (which is now part of Teradata) developing a custom MySQL engine, solving big-data problems @ Yahoo.
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[krunalbauskar@gmail.com](mailto:krunalbauskar@gmail.com)
