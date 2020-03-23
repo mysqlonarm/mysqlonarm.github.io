@@ -61,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $lblue;
 }
 
 p {
@@ -118,6 +118,12 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+}
+
+.author {
+  font-style: italic;
+  color: $gray;
+  font-size: 14px;
 }
 
 // Specify the color of the selection
@@ -267,7 +273,7 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 

@@ -13,6 +13,8 @@ layout: default
         {{ post.excerpt }}
       </div>
 
+      <div class="author">By: {{ post.author }}, Updated: {{ post.update }}</div>
+
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}

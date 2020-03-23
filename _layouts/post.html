@@ -9,9 +9,12 @@ layout: default
     {{ content }}
   </div>
 
+  <hr>
+  <br><br>
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
+  <br><br>
   {% include disqus.html %}
 </article>
