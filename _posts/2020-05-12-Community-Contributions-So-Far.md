@@ -3,7 +3,7 @@ layout: post
 title: ARM Community Contribution (to MySQL) so far...
 img: ./images/blog6/community-contributions.jpg
 author: Krunal Bauskar
-update: 11th May 2020
+update: 12th May 2020
 ---
 
 ARM community that has developers from varied organizations has contributed some really good patches to MySQL. Most of them are awaiting acceptance. Blog is meant to analyze these patches along with their pros and cons. Hopefully this would help ease MySQL/Oracle to accept these long-awaited patches.
