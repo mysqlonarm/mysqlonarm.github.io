@@ -44,7 +44,7 @@ Some more documentation search, suggested that for ``numa_all_nodes_ptr`` looks 
 numa_all_nodes_ptr: The set of nodes to record is derived from /proc/self/status, field "Mems_allowed". The user should not alter this bitmask.
 ``
 
-and as Alexey Koptov pointed in PR#138, ``numa_all_nodes_ptr`` and  ``numa_get_mems_allowed`` reads the same mask.
+and as Alexey Kopytov pointed in PR#138, ``numa_all_nodes_ptr`` and  ``numa_get_mems_allowed`` reads the same mask.
 
 This tends to suggest that ``numa_get_mems_allowed`` is broken or documentation needs to be updated.
 
