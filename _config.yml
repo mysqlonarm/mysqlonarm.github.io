@@ -11,6 +11,8 @@ description: All you need to know about MySQL (and its variants) on ARM.
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/mysqlonarm/mysqlonarm.github.io/master/images/headlogo/mysqlonarm.png
 
+timezone: Asia/Kolkata
+
 #
 # Flags below are optional
 #
