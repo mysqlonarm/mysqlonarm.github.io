@@ -28,8 +28,11 @@ Both ARM and x86 have the same resources
    * Compute: 64 vCPU (2 numa nodes) [different compute power 2.6 * 64 < 3 * 64]
       * ARM: 2.6 GHz Kupeng 920
       * x86: Intel(R) Xeon(R) Gold 6151 CPU @ 3.00GHz
-   * Storage: NVMe SSD (1.6 TB)
-   * Memory: 192GB.
+   * Storage: NVMe SSD (1.6 TB) (random read/write 180K/70K)
+   * Memory: 192GB
+   * OS: CentOS-7
+   * MariaDB Server/Backup: Using 10.6 (build from trunk).
+   * Server Configuration: Check [here](https://github.com/mysqlonarm/benchmark-suites/blob/master/mysql-sbench/conf/mdb.cnf/100tx3m_105_cpubound.cnf)
    
 <i>Cost of the machine is of-course different, with ARM being 50+% cheaper.</i>
 
