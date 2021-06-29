@@ -64,7 +64,7 @@ This naturally prompted us to look at the possible cause and as expected (at-lea
  <img src="/images/blog24/avg-wait-zipfian.png" height="400" class="centerimg"/>
  <em><span style="font-size:0.5em;">time in seconds. Average wait per thread calculated for 512 threads.  zipfian workload</span></em>
 
-  * So with increasing numa nodes we see log-sys mutex and redo-log mutex fail to scale there-by linear increase in the wait time per thread which runs upto into ‘00 of seconds causing overall slowness.
+  * So with increasing numa nodes we see log-sys mutex and redo-rseg mutex fail to scale there-by linear increase in the wait time per thread which runs upto into ‘00 of seconds causing overall slowness.
   * Most of the other followup mutexes have pretty less wait time for now. Once the contention of these 2 main mutexes is resolved other followup mutexes may show-up and another round of optimization could be needed. (Interestingly, mysql has resolved both of these contentions but mysql hits trx_sys contention which MariaDB has resolved).
 
 Good part is both of these issues are actively being tracked and the MariaDB team is actively working on it. So eventually we can expect a better NUMA scalability even for read-write workload.
